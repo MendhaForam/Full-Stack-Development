@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate email</title>
+    <script>
+        function fun(){
+        //    pat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+         pat = /^\w+([\.-]?\w+)*@\odoo.com+$/;
+         u=document.getElementById("t1").value;
+         if(pat.test(u)){
+         alert("Perfect")
+         }
+         else{
+             alert("Invalid! Try Again")
+         }
+    }
+    </script>
+</head>
+<body>
+    
+    <input type="text" id="t1">
+    <input type="submit" onclick="fun()">
+</body>
+</html>

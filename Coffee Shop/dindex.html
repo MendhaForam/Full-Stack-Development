@@ -1,0 +1,287 @@
+<!-- Topic: Coffee Shop Website -->
+<!-- Date: 30-03-2024 -->
+<!-- Subject: FSD-1 -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coffee Shop Website</title>
+
+        <!-- SWIPER -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+        <!-- Font Awesome CDN Link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <!-- Custom CSS File Link  -->
+        <link rel="stylesheet" href="css/dstyle.css">
+    </head>
+
+    <body>
+        <!-- HEADER -->
+        <header class="header">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            
+            <a href="#" class="logo">Coffee <i class="fas fa-mug-hot"></i></a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#review">Reviews</a>
+            </nav>
+
+            <a href="#book" class="btn">Book Table</a>
+        </header>
+
+
+        <!-- HOME -->
+        <section class="home" id="home">
+            <div class="row">
+                <div class="content">
+                    <h3>A Cup Of Inspiration To Make Your Day</h3>
+                    <a href="#menu" class="btn">Explore Items</a>
+                </div>
+
+                <div class="image">
+                    <img src="image/home-1.png" class="main-home-image" alt="">
+                </div>
+            </div>
+
+            <div class="image-slider">
+                <img src="image/home-1.png" alt="">
+                <img src="image/home-2.png" alt="">
+                <img src="image/home-3.png" alt="">
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <h1 class="heading abouth">About Us <span>Why Choose Us</span></h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="image/About-main.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <h3 class="title">What Makes Our Coffee Special!</h3>
+                    <p>Speciality Coffee is Sourced Differently.Not only this coffee brewed differently and grown differently, it is also sourced differently. Roasters visit these coffee farms personally. They make connections and relationships with the growers.</p>
+                    <div class="icons-container">
+                        <div class="icons">
+                            <img src="image/Quality.png" alt="">
+                            <h3>Quality Coffee</h3>
+                        </div>
+                        <div class="icons">
+                            <img src="image/Branches.png" alt="">
+                            <h3>Many Branches</h3>
+                        </div>
+                        <div class="icons">
+                            <img src="image/Delivery.png" alt="">
+                            <h3>Free Delivery</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MENU -->
+        <section class="menu" id="menu">
+            <h1 class="heading">Our Menu <span>Popular Menu</span></h1>
+
+            <div class="box-container">
+
+                <a class="box">
+                    <img src="image/menu-1.png" alt="">
+                    <div class="content">
+                        <h3>Americano</h3>
+                        <p>Shot of espresso that is diluted with hot water and completed with a light layer of cream at the top.</p>
+                        <span>Price: ₹200</span>
+                    </div>
+                </a>
+
+                <a class="box">
+                    <img src="image/menu-2.png" alt="">
+                    <div class="content">
+                        <h3>Cappuccino</h3>
+                        <p>Drink is made by layering a balanced ratio of espresso, steamed milk, and milk foam in that order.</p>
+                        <span>Price: ₹250</span>
+                    </div>
+                </a>
+
+                <a class="box">
+                    <img src="image/menu-3.png" alt="">
+                    <div class="content">
+                        <h3>Latte</h3>
+                        <p>They are also made with espresso, steamed milk, and milk foam but the ratios are different.</p>
+                        <span>Price: ₹220</span>
+                    </div>
+                </a>
+
+                <a class="box">
+                    <img src="image/menu-4.png" alt="">
+                    <div class="content">
+                        <h3>Macchiato</h3>
+                        <p>A fan favorite of coffee drinkers who enjoy the bitterness that naturally comes in coffee.</p>
+                        <span>Price: ₹240</span>
+                    </div>
+                </a>
+
+                <a class="box">
+                    <img src="image/menu-5.png" alt="">
+                    <div class="content">
+                        <h3>Mocha</h3>
+                        <p>It is a top choice when you want to satisfy your sweet tooth needs.</p>
+                        <span>Price: ₹270</span>
+                    </div>
+                </a>
+
+                <a class="box">
+                    <img src="image/menu-6.png" alt="">
+                    <div class="content">
+                        <h3>Espresso</h3>
+                        <p>Espressos are basically highly concentrated coffee.</p>
+                        <span>Price: ₹200</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- REVIEW -->
+        <section class="review" id="review">
+            <h1 class="heading">Reviews <span>What People Say</span></h1>
+
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i>
+                        <img src="image/Deep.jpg" alt="">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>One of the good place for coffee lovers. Different type of coffee are available here and taste is awesome.</p>
+                        <h3>Deep</h3>
+                        <span>Satisfied Customer</span>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i>
+                        <img src="image/Megha.jpg" alt="">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>Really good coffee at this place, never ever seen this kind of variety in menu for only coffee</p>
+                        <h3>Megha</h3>
+                        <span>Satisfied Customer</span>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-left"></i>
+                        <i class="fas fa-quote-right"></i>
+                        <img src="image/Tirth.jpg" alt="">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>Had a best coffee after such a long period of time. Perfect cup of Comfort</p>
+                        <h3>Tirth</h3>
+                        <span>Satisfied Customer</span>
+                    </div>
+
+                    <div class="swiper-slide box">
+                    <i class="fas fa-quote-left"></i>
+                    <i class="fas fa-quote-right"></i>
+                    <img src="image/Palak.jpg" alt="">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                        <p>Absolute delight for the senses. Had the best one. Would also like to try more sometime.</p>
+                        <h3>Palak</h3>
+                        <span>Satisfied Customer</span>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- BOOK -->
+        <section class="book" id="book">
+            <h1 class="heading">booking <span>reserve a table</span></h1>
+
+            <form>
+                <input id="bt-name" type="text" placeholder="Name" class="box">
+                <input id="bt-email" type="email" placeholder="Email" class="box">
+                <input id="bt-number" type="tel" placeholder="Number" class="box">
+                <textarea id="bt-message" name="" placeholder="Message" class="box" cols="30" rows="10"></textarea>
+                <input id="bt-submit" type="button" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <!-- FOOTER -->
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Our Branches</h3>
+                    <a><i class="fas fa-arrow-right"></i>Ahmedabad</a>
+                    <a><i class="fas fa-arrow-right"></i>Rajkot</a>
+                    <a><i class="fas fa-arrow-right"></i>Surat</a>
+                    <a><i class="fas fa-arrow-right"></i>Vadodara</a>
+                    <a><i class="fas fa-arrow-right"></i>Gandhinagar</a>
+                </div>
+
+                <div class="box">
+                    <h3>Quick Links</h3>
+                    <a href="#home"><i class="fas fa-arrow-right"></i>Home</a>
+                    <a href="#about"><i class="fas fa-arrow-right"></i>About</a>
+                    <a href="#menu"><i class="fas fa-arrow-right"></i>Menu</a>
+                    <a href="#review"><i class="fas fa-arrow-right"></i>Reviews</a>
+                </div>
+
+                <div class="box">
+                    <h3>Contact Info</h3>
+                    <a><i class="fas fa-phone"></i>+91 7990584883</a>
+                    <a><i class="fas fa-phone"></i>+91 8488017987</a>
+                    <a><i class="fas fa-envelope"></i>coffee@gmail.com</a>
+                    <a><i class="fas fa-envelope"></i>Ahmedabad, Gujarat</a>
+                </div>
+
+                <div class="box">
+                    <h3>Other Info</h3>
+                    <a><i class="fab fa-facebook-f"></i>Facebook</a>
+                    <a><i class="fab fa-twitter"></i>Twitter</a>
+                    <a><i class="fab fa-instagram"></i>Instagram</a>
+                </div>
+            </div>
+
+            <div class="credit">Copyright @ 2024 by <span>Mendha Foram</span> | All Rights Reserved!</div>
+        </section>
+    
+        <!-- SWIPER -->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+        <!-- Custom JS File Link  -->
+        <script src="js/dscript.js"></script>
+    </body>
+</html>
